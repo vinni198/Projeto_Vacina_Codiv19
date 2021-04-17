@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package br.com.sobrevida.vacinaSARSCoV2;
 
 import static java.lang.Thread.sleep;
@@ -55,12 +56,8 @@ public class Carregar extends javax.swing.JFrame {
         carrega.setText("0%");
         jPanel1.add(carrega);
         carrega.setBounds(370, 210, 70, 47);
-
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\xampp\\htdocs\\Projeto_Vacina_Codiv19\\PROJETO\\vacinaSARS-CoV-2\\src\\main\\java\\images\\carregar.gif")); // NOI18N
         jPanel1.add(jLabel3);
         jLabel3.setBounds(360, 120, 70, 70);
-
-        imgFundo.setIcon(new javax.swing.ImageIcon("C:\\xampp\\htdocs\\Projeto_Vacina_Codiv19\\PROJETO\\vacinaSARS-CoV-2\\src\\main\\java\\images\\painel2.jpg")); // NOI18N
         jPanel1.add(imgFundo);
         imgFundo.setBounds(-1130, -720, 1920, 1080);
 
